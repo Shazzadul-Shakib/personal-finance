@@ -1,0 +1,52 @@
+/* font import link */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+/* Over the body & built-in tags */
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+h1{
+  font-weight: 900;
+  color: #087287;
+}
+label{
+  color: #087287;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+input{
+  color: #087287;
+}
+input:focus{
+  outline: 1px solid #D4B820;
+}
+
+/* Heading & heading icon syle */
+.head-text{
+  color: #087287;
+  font-weight: 900;
+}
+.bi-wallet-fill{
+  color: #D4B820;
+}
+
+.nan-error{
+  background-color: red;
+  color: #FFF;
+}
+/* Finance management section Background color */
+.input-sec{
+  background-color: #FCFFE3;
+}
+/* Buttons */
+.btn{
+  background-color: #D4B820;
+  border: none;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.btn:hover{
+  background-color: #EAC92E;
+  border: none;
+  color: #FFF;
+}
